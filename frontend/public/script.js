@@ -27,7 +27,7 @@ const loadEvent = async () => {
     if (window.location.pathname === "/admin/order-view") {
         console.log("More, ez az admin fölület!")
     } else {
-        console.log("More, ez ENM az admin fölület!")
+        console.log("More, ez NEM az admin fölület!")
     }
     
     const result = await parseJSON("/api/v1/users");
